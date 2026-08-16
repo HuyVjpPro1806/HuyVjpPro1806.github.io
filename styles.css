@@ -210,6 +210,11 @@ nav {
   text-align: center;
 }
 
+.sub-banner {
+  min-height: 46vh;
+  padding-bottom: 4rem;
+}
+
 .banner::after {
   position: absolute;
   inset: auto 0 0;
@@ -247,6 +252,10 @@ nav {
   width: min(90rem, calc(100% - 2rem));
   margin: -2rem auto 4rem;
   align-items: start;
+}
+
+.lab-shell {
+  margin-top: -1rem;
 }
 
 .content-column,
