@@ -1,8 +1,8 @@
-const header = document.querySelector("[data-header]");
+const header = document.querySelector(".topbar");
 
 function updateHeader() {
   if (!header) return;
-  header.classList.toggle("is-scrolled", window.scrollY > 16);
+  header.classList.toggle("scrolled", window.scrollY > 16);
 }
 
 updateHeader();
